@@ -15,6 +15,5 @@
             Tabuleiro = tabuleiro;
             this.QtdMovimentos = 0;
         }
-
     }
 }
