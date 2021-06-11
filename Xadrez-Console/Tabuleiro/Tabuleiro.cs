@@ -42,7 +42,7 @@ namespace Xadrez_Console.Tabuleiro
 
         public bool PosicaoValida(Posicao posicao)
         {
-            return (posicao.Linha < 0 || posicao.Linha >= Linhas || posicao.Coluna < 0 || posicao.Coluna >= Colunas) ? false : true;
+            return !(posicao.Linha < 0 || posicao.Linha >= Linhas || posicao.Coluna < 0 || posicao.Coluna >= Colunas);
         }
 
         public void ValidarPosicao(Posicao posicao)
