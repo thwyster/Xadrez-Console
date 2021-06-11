@@ -1,0 +1,15 @@
+{
+  "ServerUri": "https://sonarcloud.io/",
+  "Organization": {
+    "Key": "thwyster",
+    "Name": "Ronny Czerkus"
+  },
+  "ProjectKey": "thwyster_Xadrez-Console",
+  "ProjectName": "Xadrez-Console",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXnK6qKZthSTtT7HcJ_x",
+      "ProfileTimestamp": "2021-05-05T07:40:20Z"
+    }
+  }
+}

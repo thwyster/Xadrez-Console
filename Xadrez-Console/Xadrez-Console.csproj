@@ -4,6 +4,11 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Xadrez_Console</RootNamespace>
+    <CodeAnalysisRuleSet>..\.sonarlint\thwyster_xadrez-consolecsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\thwyster_xadrez-console\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
 
 </Project>
